@@ -1,0 +1,11 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "description": "It is event loop",
+  "main": "event-loop.js",
+  "scripts": {
+    "start": "set UV_THREADPOOL_SIZE=3 & node event-loop.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
